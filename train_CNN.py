@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import keras.callbacks
-from utils.utils import image_from_sequence_generator, sequence_generator, get_data_list, get_train_test, get_class_index, get_seqLen
+from .utils import image_from_sequence_generator, sequence_generator, get_data_list, get_train_test, get_class_index, get_seqLen
 from models.finetuned_vgg import finetuned_vgg
 from keras.optimizers import SGD
 import matplotlib.pyplot as plt

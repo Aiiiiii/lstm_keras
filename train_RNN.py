@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from utils.utils import sequence_generator, get_data_list, get_class_index, get_train_test, get_seqLen
+from .utils import sequence_generator, get_data_list, get_class_index, get_train_test, get_seqLen
 import keras.callbacks
 from models import RNN
 from keras.optimizers import SGD, Adam
